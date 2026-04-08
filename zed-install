@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# zed update script
+
+echo "Installing Zed..."
+curl -f https://zed.dev/install.sh | sh

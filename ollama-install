@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# ollama install script
+
+echo "Installing ollama..."
+curl -fsSL https://ollama.com/install.sh | sh
