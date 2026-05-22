@@ -1,6 +1,6 @@
 # creates simlinks to my ~.local/bin/
 PREFIX ?= $(HOME)/.local/bin
-SCRIPTS := zed-install deno-install ollama-install nix-install
+SCRIPTS := zed-install deno-install ollama-install nix-install bun-install
 REPO_DIR := $(shell pwd)
 
 .PHONY: install uninstall
